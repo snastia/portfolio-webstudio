@@ -148,19 +148,17 @@ width: 270px;
 /* портфоліо */
 .list-rb{
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    justify-content: space-between;
 }
 .item{
     margin: 30px;
 }
 .list-human{
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    justify-content: space-between;
 }
-.item-human{
-    margin: 30px;
+.item-human:not(:last-child){
+    margin-right: 30px;
 }
 .img{
     width: 270px;
